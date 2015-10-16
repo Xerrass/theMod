@@ -1,0 +1,9 @@
+{
+	"name":"theMod",
+	"author":"Xerrass",
+	"version":"0.0.1",
+	"title":"Mod in WIP",
+	"homepage":"http://localhost/",
+	"description":"This mod adds a Electric Train.",
+	"dependencies": ["base"]
+}

@@ -1,0 +1,108 @@
+data:extend(
+{
+  {
+    type = "fluid",
+    name = "lava-600",
+    default_temperature = 600,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 600,
+    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    pressure_to_speed_ratio = 0.1,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[lava-600]"
+  },
+  {
+    type = "fluid",
+    name = "lava-800",
+    default_temperature = 800,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 800,
+    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    pressure_to_speed_ratio = 0.1,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[lava-800]"
+  },
+  {
+    type = "fluid",
+    name = "lava-1000",
+    default_temperature = 1000,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 800,
+    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    pressure_to_speed_ratio = 0.1,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[lava-1000]"
+  },
+  {
+    type = "fluid",
+    name = "lava-1200",
+    default_temperature = 1200,
+    heat_capacity = "1KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 800,
+    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    pressure_to_speed_ratio = 0.1,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[lava-1200]"
+  },
+  {
+    type = "fluid",
+    name = "clean-water",
+    default_temperature = 15,
+    heat_capacity = "2KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[clean-water]"
+  },
+  {
+    type = "fluid",
+    name = "helium-gas",
+    default_temperature = 15,
+    heat_capacity = "5J",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[helium-gas]"
+  },
+  {
+    type = "fluid",
+    name = "fluid-deuterium",
+    default_temperature = -260,
+    heat_capacity = "1J",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = -255,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[fluid-deuterium]"
+  },
+  {
+    type = "fluid",
+    name = "fluid-tritium",
+    default_temperature = -260,
+    heat_capacity = "1J",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = -255,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[fluid-tritium]"
+  },
+  
+}
