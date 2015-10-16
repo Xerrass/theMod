@@ -104,5 +104,44 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[fluid-tritium]"
   },
+  {
+    type = "fluid",
+    name = "smog-gas",
+    default_temperature = -260,
+    heat_capacity = "1J",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = -255,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[smog-gas]"
+  },
+  {
+    type = "fluid",
+    name = "destiled-water",
+    default_temperature = 15,
+    heat_capacity = "4kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[destiled-water]"
+  },
+   {
+    type = "fluid",
+    name = "steam",
+    default_temperature = 110,
+    heat_capacity = "4kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 300,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[steam]"
+  },
   
 }
