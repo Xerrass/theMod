@@ -20,6 +20,6 @@ data.raw["item"]["battery"].stack_size = 200
 --[[Recipys]]--
 ChangeRecipe("electric-engine-unit", "engine-unit", "electro-magnet", 5)
 ChangeRecipe("electric-engine-unit", "lubricant", "graphite-bar", 4)
-
+ChangeRecipe("engine-unit", "pipe", "engine-piston", 4)
 --[[ Technologies ]]--
 data.raw["technology"]["steel-processing"].prerequisites={"automation"}

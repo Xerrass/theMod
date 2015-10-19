@@ -10,7 +10,8 @@ data:extend(
 		place_result = "e-train",
 		stack_size = 5
 	},
-{
+
+	{
     type = "item",
     name = "magnet-core",
     icon = "__theMod__/graphics/icons/magnet-core.jpg",
@@ -41,7 +42,7 @@ data:extend(
   {
     type = "item",
     name = "engine-piston",
-    icon = "__base__/graphics/icons/electric-engine-unit.png",
+    icon = "__theMod__/graphics/icons/engine-piston.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "a[wires]-a[engine-piston]",

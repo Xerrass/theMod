@@ -29,7 +29,7 @@ data:extend(
     type = "recipe",
     name = "graphite-bar",
     enabled = "true",
-	category = "advanced-crafting",
+	category = "crafting",
     ingredients =
     {
       {"coal", 20},
@@ -56,5 +56,15 @@ data:extend(
       {"iron-plate", 2},
     },
     result = "magnet-core"
+  },
+  {
+    type = "recipe",
+    name = "engine-piston",
+    enabled = "true",
+    ingredients =
+    {
+      {"iron-plate", 4},
+    },
+    result = "engine-piston"
   },
 })
