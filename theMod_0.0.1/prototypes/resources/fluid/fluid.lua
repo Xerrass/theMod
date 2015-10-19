@@ -143,5 +143,83 @@ data:extend(
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[steam]"
   },
+  {
+    type = "fluid",
+    name = "dirty-steam",
+    default_temperature = 110,
+    heat_capacity = "4kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 300,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[dirty-steam]"
+  },
+  {
+    type = "fluid",
+    name = "clean-water-1",
+    default_temperature = 15,
+    heat_capacity = "1.2kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[clean-water-1]"
+  },
+  {
+    type = "fluid",
+    name = "clean-water-2",
+    default_temperature = 15,
+    heat_capacity = "1.5kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[clean-water-2]"
+  },
+  {
+    type = "fluid",
+    name = "clean-water-3",
+    default_temperature = 15,
+    heat_capacity = "1.5kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[clean-water-3]"
+  },
+  {
+    type = "fluid",
+    name = "clean-water-4",
+    default_temperature = 15,
+    heat_capacity = "1.5kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[clean-water-4]"
+  },
+  {
+    type = "fluid",
+    name = "oxygen",
+    default_temperature = -240,
+    heat_capacity = "1.5kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    max_temperature = -235,
+    icon = "__base__/graphics/icons/fluid/water.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[oxygen]"
+  },
   
 })
