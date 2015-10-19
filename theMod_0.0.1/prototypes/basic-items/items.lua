@@ -13,19 +13,29 @@ data:extend(
 {
     type = "item",
     name = "magnet-core",
-    icon = "__base__/graphics/icons/electric-engine-unit.png",
+    icon = "__theMod__/graphics/icons/magnet-core.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "a[wires]-a[magnet-core]",
     stack_size = 200
   },
+ 
   {
     type = "item",
-    name = "electro-Magnet",
-    icon = "__base__/graphics/icons/electric-engine-unit.png",
+    name = "graphite-bar",
+    icon = "__theMod__/graphics/icons/graphite-bar.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[electro-Magnet]",
+    order = "a[wires]-a[graphite-bar]",
+    stack_size = 200
+  },
+  {
+    type = "item",
+    name = "electro-magnet",
+    icon = "__theMod__/graphics/icons/electro-magnet.jpg",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "a[wires]-a[electro-magnet]",
     stack_size = 200
   },
   {
@@ -36,15 +46,6 @@ data:extend(
     subgroup = "intermediate-product",
     order = "a[wires]-a[engine-piston]",
     stack_size = 200
-  },
-  {
-    type = "item",
-    name = "electric-engine",
-    icon = "__base__/graphics/icons/electric-engine-unit.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "intermediate-product",
-    order = "a[wires]-a[electric-engine]",
-    stack_size = 50
   },
   {
     type = "item",
