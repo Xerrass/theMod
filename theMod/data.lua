@@ -28,3 +28,5 @@ require("prototypes.machines.water-filter.entity")
 require("prototypes.machines.water-filter.recipe")
 require("prototypes.machines.water-filter.tech")
 
+--gun-turret-mk2
+require("prototypes.machines.minigun-turret-mark 2.turretmk2")
