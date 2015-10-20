@@ -3,7 +3,7 @@ data:extend(
 	{
 		type = "item",
 		name = "sand",
-		icon = "__theMod__/graphics/icons/sand.png",
+		icon = "__theMod__/graphics/icons/sand.jpg",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "intermediat-items",
 		order = "a[the-mod-resources]-e[sand]",

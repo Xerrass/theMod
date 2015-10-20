@@ -15,15 +15,27 @@ data:extend(
 
   {
     type = "recipe",
-    name = "e-train",
+    name = "gravel",
     enabled = "false",
     ingredients =
     {
-      {"electric-engine-unit", 15},
-      {"electronic-circuit", 5},
-      {"steel-plate", 10},
+      {"stone", 10},
+      
     },
-    result = "e-train"
+	result_count = 20,
+    result = "gravel"
+  },
+  {
+    type = "recipe",
+    name = "sand",
+    enabled = "false",
+    ingredients =
+    {
+      {"gravel", 10},
+      
+    },
+	result_count = 20,
+    result = "sand"
   },
    {
     type = "recipe",
