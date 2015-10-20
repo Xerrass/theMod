@@ -5,17 +5,17 @@ data:extend(
 		name = "sand",
 		icon = "__theMod__/graphics/icons/sand.jpg",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "intermediat-items",
-		order = "a[the-mod-resources]-e[sand]",
+		subgroup = "the-mod-intermediate",
+		order = "a[the-mod-intermediate]-e[sand]",
 		stack_size = 200
 	},
 	{
 		type = "item",
-		name = "garvel",
-		icon = "__theMod__/graphics/icons/gravel.png",
+		name = "gravel",
+		icon = "__theMod__/graphics/icons/gravel.jpg",
 		flags = {"goes-to-main-inventory"},
-		subgroup = "intermediat-items",
-		order = "a[the-mod-resources]-e[gravel]",
+		subgroup = "the-mod-intermediate",
+		order = "a[the-mod-intermediate]-e[gravel]",
 		stack_size = 200
 	},
 })

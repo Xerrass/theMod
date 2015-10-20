@@ -17,7 +17,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/magnet-core.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[magnet-core]",
+    order = "a[the-mod-intermediate]-a[magnet-core]",
     stack_size = 200
   },
  
@@ -27,7 +27,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/graphite-bar.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[graphite-bar]",
+    order = "a[the-mod-intermediate]-a[graphite-bar]",
     stack_size = 200
   },
   {
@@ -36,7 +36,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/electro-magnet.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[electro-magnet]",
+    order = "a[the-mod-intermediate]-a[electro-magnet]",
     stack_size = 200
   },
   {
@@ -45,7 +45,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/engine-piston.jpg",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[engine-piston]",
+    order = "a[the-mod-intermediate]-a[engine-piston]",
     stack_size = 200
   },
   {
@@ -54,7 +54,7 @@ data:extend(
     icon = "__base__/graphics/icons/electric-engine-unit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[lead-acid-battery]",
+    order = "a[the-mod-intermediate]-a[lead-acid-battery]",
     stack_size = 200
   },
   {
@@ -63,7 +63,7 @@ data:extend(
     icon = "__base__/graphics/icons/electric-engine-unit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
-    order = "a[wires]-a[lithium-ion-battery]",
+    order = "a[the-mod-intermediate]-a[lithium-ion-battery]",
     stack_size = 200
   },
 })

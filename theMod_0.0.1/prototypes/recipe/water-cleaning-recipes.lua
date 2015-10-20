@@ -9,9 +9,11 @@ data:extend(
     {
       {"sand", 2},
 	  {"gravel", 2},
-	  {"water", 300},
+	  {type="fluid", name="water", amount=300},
     },
-	result_count = 300,
-    result = "clean-water-1",
+	results=
+    {
+		{type="fluid", name="clean-water", amount=300},
+	},
   },
 })
