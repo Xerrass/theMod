@@ -1,6 +1,6 @@
 data:extend(
 {
-  {
+ {
     type = "technology",
     name = "electric-trains",
     icon = "__theMod__/graphics/icons/e-train.png",

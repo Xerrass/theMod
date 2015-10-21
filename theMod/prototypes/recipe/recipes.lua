@@ -17,6 +17,7 @@ data:extend(
     type = "recipe",
     name = "gravel",
     enabled = "false",
+	category = "crafting",
     ingredients =
     {
       {"stone", 10},
@@ -24,6 +25,7 @@ data:extend(
     },
 	result_count = 20,
     result = "gravel"
+	
   },
   {
     type = "recipe",
@@ -34,6 +36,7 @@ data:extend(
       {"gravel", 10},
       
     },
+	category = "crafting",
 	result_count = 20,
     result = "sand"
   },
@@ -79,4 +82,42 @@ data:extend(
     },
     result = "engine-piston"
   },
+  {
+    type = "recipe",
+    name = "electronic-transistor",
+    enabled = "true",
+    ingredients =
+    {
+      {"iron-cable", 1},
+	  {"iron-plate", 1},
+    },
+    result = "electronic-transistor",
+	result_count = 20,
+  },
+  {
+    type = "recipe",
+    name = "electronic-capacitor-1",
+    enabled = "true",
+    ingredients =
+    {
+      {"iron-cable", 1},
+	  {"stone", 1},
+    },
+    result = "electronic-capacitor-1",
+	result_count = 20,
+  },
+  {
+    type = "recipe",
+    name = "iron-cable",
+    enabled = "true",
+    ingredients =
+    {
+      {"iron-plate", 1},
+	  
+    },
+    result = "iron-cable",
+	result_count = 2,
+  },
+  
+  
 })

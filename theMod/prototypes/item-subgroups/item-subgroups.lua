@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "item-group",
-    name = "the-mod-intermediate",
+    name = "the-mod",
     icon = "__core__/graphics/neutral-force-icon.png",
     inventory_order = "a",
     order = "a"
@@ -10,7 +10,7 @@ data:extend(
   {
     type = "item-subgroup",
     name = "the-mod-intermediate",
-    group = "the-mod-intermediate",
+    group = "the-mod",
     order = "f"
   },
 })

@@ -10,6 +10,14 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "water-cleaner"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "sand"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "gravel"
       }
     },
     unit =

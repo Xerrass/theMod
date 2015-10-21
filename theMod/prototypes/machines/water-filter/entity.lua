@@ -20,7 +20,7 @@ data:extend(
     {
       north =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner.png",
         width = 156,
         height = 141,
         frame_count = 1,
@@ -28,7 +28,7 @@ data:extend(
       },
       west =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner.png",
         x = 156,
         width = 156,
         height = 141,
@@ -37,7 +37,7 @@ data:extend(
       },
       south =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner.png",
         x = 312,
         width = 156,
         height = 141,
@@ -46,7 +46,7 @@ data:extend(
       },
       east =
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner.png",
         x = 468,
         width = 156,
         height = 141,
@@ -63,7 +63,7 @@ data:extend(
         east_position = {0.05, -1.46},
         animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-green-patch.png",
+          filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner-animationprogress.png",
           frame_count = 35,
           width = 17,
           height = 12,
@@ -77,14 +77,14 @@ data:extend(
         east_position = {0.05, -0.96},
         north_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
+          filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner-window.png",
           frame_count = 1,
           width = 21,
           height = 10
         },
         west_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
+          filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner-window.png",
           x = 21,
           frame_count = 1,
           width = 21,
@@ -92,7 +92,7 @@ data:extend(
         },
         south_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
+          filename = "__theMod__/graphics/entity/water-cleaner/water-cleaner-window.png",
           x = 42,
           frame_count = 1,
           width = 21,
