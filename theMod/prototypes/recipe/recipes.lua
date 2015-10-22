@@ -47,7 +47,7 @@ data:extend(
 	category = "crafting",
     ingredients =
     {
-      {"coal", 20},
+      {"coal", 5},
     },
     result = "graphite-bar"
   },
@@ -57,7 +57,7 @@ data:extend(
     enabled = "true",
     ingredients =
     {
-      {"copper-cable", 20},
+      {"copper-cable", 10},
 	  {"magnet-core", 1},
     },
     result = "electro-magnet"
@@ -117,6 +117,20 @@ data:extend(
     },
     result = "iron-cable",
 	result_count = 2,
+  },
+  {
+    type = "recipe",
+    name = "active-coal-filter",
+    enabled = "true",
+    ingredients =
+    {
+      {"iron-plate", 1},
+	  {"graphite-bar", 10},
+	  
+	  
+    },
+    result = "active-coal-filter",
+	result_count = 1,
   },
   
   

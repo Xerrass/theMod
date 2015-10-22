@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "water-cleaning-1",
     enabled = "true",
-	category = "water-cleaning",
+	category = "fluid-cleaning",
     ingredients =
     {
       {"sand", 2},
@@ -14,6 +14,21 @@ data:extend(
 	results=
     {
 		{type="fluid", name="clean-water", amount=300},
+	},
+  },
+  {
+    type = "recipe",
+    name = "water-cleaning-2",
+    enabled = "true",
+	category = "fluid-cleaning",
+    ingredients =
+    {
+      {"active-coal-filter", 1},
+	  {type="fluid", name="dirty-water", amount=30000},
+    },
+	results=
+    {
+		{type="fluid", name="clean-water", amount=30000},
 	},
   },
 })

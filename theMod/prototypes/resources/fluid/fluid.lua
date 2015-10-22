@@ -227,12 +227,64 @@ data:extend(
     default_temperature = -240,
     heat_capacity = "0.2kJ",
     base_color = {r=0, g=0, b=0},
-    flow_color = {r=0.5, g=0.5, b=0.5},
+    flow_color = {r=0.4, g=0.4, b=0.5},
     max_temperature = -235,
     icon = "__theMod__/graphics/icons/fluid/dirty-water.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    order = "a[fluid]-b[oxygen]"
+    order = "a[fluid]-b[dirty-water]"
+  },
+  {
+    type = "fluid",
+    name = "copper-ore-slushy",
+    default_temperature = 15,
+    heat_capacity = "0.2kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.4, b=0.4},
+    max_temperature = 100,
+    icon = "__theMod__/graphics/icons/fluid/copper-ore-slushy.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[copper-ore-slushy]"
+  },
+  {
+    type = "fluid",
+    name = "iron-ore-slushy",
+    default_temperature = 15,
+    heat_capacity = "0.2kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.6, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__theMod__/graphics/icons/fluid/iron-ore-slushy.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[iron-ore-slushy]"
+  },
+  {
+    type = "fluid",
+    name = "dirty-copper-ore-slushy",
+    default_temperature = 15,
+    heat_capacity = "0.2kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.4, b=0.4},
+    max_temperature = 100,
+    icon = "__theMod__/graphics/icons/fluid/dirty-copper-ore-slushy.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[dirty-copper-ore-slushy]"
+  },
+  {
+    type = "fluid",
+    name = "dirty-iron-ore-slushy",
+    default_temperature = 15,
+    heat_capacity = "0.2kJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.6, g=0.5, b=0.5},
+    max_temperature = 100,
+    icon = "__theMod__/graphics/icons/fluid/dirty-iron-ore-slushy.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-b[dirty-iron-ore-slushy]"
   },
   
 })

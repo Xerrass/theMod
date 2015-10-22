@@ -2,6 +2,10 @@ data:extend(
 {
   {
     type = "recipe-category",
-    name = "water-cleaning"
+    name = "fluid-cleaning"
+  },
+  {
+    type = "recipe-category",
+    name = "ore-slushy"
   },
 })

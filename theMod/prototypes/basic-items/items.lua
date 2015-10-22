@@ -13,6 +13,15 @@ data:extend(
 
 	{
     type = "item",
+    name = "active-coal-filter",
+    icon = "__theMod__/graphics/icons/active-coal-filter.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "the-mod-intermediate",
+    order = "a[the-mod-intermediate]-a[active-coal-filter]",
+    stack_size = 200
+  },
+	{
+    type = "item",
     name = "electronic-transistor",
     icon = "__theMod__/graphics/icons/electronic-transistor.png",
     flags = {"goes-to-main-inventory"},
@@ -23,7 +32,7 @@ data:extend(
   {
     type = "item",
     name = "electronic-capacitor-1",
-    icon = "__theMod__/graphics/icons/electronic-capacitor-1.jpg",
+    icon = "__theMod__/graphics/icons/electronic-capacitor-1.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[electronic-capacitor-1]",
@@ -41,7 +50,7 @@ data:extend(
 	{
     type = "item",
     name = "magnet-core",
-    icon = "__theMod__/graphics/icons/magnet-core.jpg",
+    icon = "__theMod__/graphics/icons/magnet-core.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[magnet-core]",
@@ -51,7 +60,7 @@ data:extend(
   {
     type = "item",
     name = "graphite-bar",
-    icon = "__theMod__/graphics/icons/graphite-bar.jpg",
+    icon = "__theMod__/graphics/icons/graphite-bar.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[graphite-bar]",
@@ -60,7 +69,7 @@ data:extend(
   {
     type = "item",
     name = "electro-magnet",
-    icon = "__theMod__/graphics/icons/electro-magnet.jpg",
+    icon = "__theMod__/graphics/icons/electro-magnet.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[electro-magnet]",
@@ -69,7 +78,7 @@ data:extend(
   {
     type = "item",
     name = "engine-piston",
-    icon = "__theMod__/graphics/icons/engine-piston.jpg",
+    icon = "__theMod__/graphics/icons/engine-piston.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[engine-piston]",

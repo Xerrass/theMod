@@ -1,9 +1,9 @@
 {
 	"name":"theMod",
 	"author":"Xerrass",
-	"version":"0.0.2",
-	"title":"Mod in WIP",
+	"version":"0.0.3",
+	"title":"The Mod",
 	"homepage":"http://localhost/",
-	"description":"This mod adds a Electric Train.",
+	"description":"This mod brings more recipy and tweacks some stuff",
 	"dependencies": ["base"]
 }

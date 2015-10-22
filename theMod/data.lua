@@ -11,6 +11,7 @@ require("prototypes.resources.solid.items")
 --recipies
 require("prototypes.recipe.recipes")
 require("prototypes.recipe.water-cleaning-recipes")
+require("prototypes.recipe.ore-slushy-recipys")
 require("prototypes.recipe-categorys.recipe-categorys")
 
 --tech etrain
@@ -24,10 +25,15 @@ require("prototypes.functions")
 require("prototypes.item-subgroups.item-subgroups")
 
 --water-cleaner
-require("prototypes.machines.water-filter.item")
-require("prototypes.machines.water-filter.entity")
-require("prototypes.machines.water-filter.recipe")
-require("prototypes.machines.water-filter.tech")
+require("prototypes.machines.fluid-filter.item")
+require("prototypes.machines.fluid-filter.entity")
+require("prototypes.machines.fluid-filter.recipe")
+require("prototypes.machines.fluid-filter.tech")
+--ore-mixer
+require("prototypes.machines.ore-mixer.item")
+require("prototypes.machines.ore-mixer.entity")
+require("prototypes.machines.ore-mixer.recipe")
+require("prototypes.machines.ore-mixer.tech")
 
 --gun-turret-mk2
 --require("prototypes.machines.minigun-turret-mark 2.turretmk2")

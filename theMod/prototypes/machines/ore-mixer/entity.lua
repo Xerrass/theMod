@@ -2,10 +2,10 @@ data:extend(
 {
 {
     type = "assembling-machine",
-    name = "water-cleaner",
+    name = "ore-mixer",
     icon = "__base__/graphics/icons/chemical-plant.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "ore-mixer"},
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -117,11 +117,11 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 3.5
+      emissions = 0.01 / 1
     },
-    energy_usage = "210kW",
+    energy_usage = "20kW",
     ingredient_count = 4,
-    crafting_categories = {"water-cleaning"},
+    crafting_categories = {"ore-slushy"},
     fluid_boxes =
     {
       {

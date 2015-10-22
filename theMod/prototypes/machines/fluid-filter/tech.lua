@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "technology",
-    name = "basic-water-cleaning",
+    name = "basic-fluid-filtering",
     icon = "__base__/graphics/technology/fluid-handling.png",
     prerequisites = {"automation"},
     effects =
