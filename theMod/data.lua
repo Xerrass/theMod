@@ -8,6 +8,10 @@ require("prototypes.basic-items.items")
 require("prototypes.resources.fluid.fluid")
 require("prototypes.resources.solid.items")
 
+--Equipment
+require("prototypes.equipment.ulti-roboport")
+require("prototypes.equipment.fusion-reactor-mk2")
+
 --recipies
 require("prototypes.recipe.recipes")
 require("prototypes.recipe.water-cleaning-recipes")
