@@ -8,4 +8,8 @@ data:extend(
     type = "recipe-category",
     name = "ore-slushy"
   },
+  {
+    type = "recipe-category",
+    name = "electrolyser"
+  },
 })
