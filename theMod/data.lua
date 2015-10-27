@@ -52,5 +52,11 @@ require("prototypes.machines.ore-mixer.tech")
 --require("prototypes.machines.electrolyser.recipe")
 --require("prototypes.machines.electrolyser.tech")
 
+--ammo-clip
+require("prototypes.ammo.ammo-clip")
+require("prototypes.ammo.ammo-items")
+require("prototypes.ammo.ammo-recpie")
+require("prototypes.ammo.ammo-tech")
+
 --gun-turret-mk2
 --require("prototypes.machines.minigun-turret-mark 2.turretmk2")

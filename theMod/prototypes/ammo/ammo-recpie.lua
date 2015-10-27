@@ -7,7 +7,7 @@ data:extend(
     ingredients =
     {
       {"piercing-clip-shell-set", 4},
-      {"piercing-clip-bullet-set", 1},
+      {"piercing-clip-bullet-set", 4},
     },
     result = "piercing-bullet-clip"
   },
@@ -17,8 +17,8 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"copper-plate", 4},
-      {"coal", 1},
+      {"copper-plate", 15},
+      {"coal", 4},
     },
     result = "piercing-clip-shell-set"
   },
@@ -28,7 +28,7 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-plate", 4},
+      {"iron-plate", 20},
     },
     result = "piercing-clip-bullet-set"
   },
