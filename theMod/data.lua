@@ -30,6 +30,9 @@ require("prototypes.equipment.roboport-modules.tech")
 require("prototypes.base-override")
 require("prototypes.functions")
 
+--inserters
+require("prototypes.inserters.very-fast-inserter")
+
 --item-groups
 require("prototypes.item-subgroups.item-subgroups")
 

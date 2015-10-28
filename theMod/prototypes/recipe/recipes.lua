@@ -132,6 +132,21 @@ data:extend(
     result = "active-coal-filter",
 	result_count = 1,
   },
+  {
+    type = "recipe",
+    name = "small-electric-engine",
+    enabled = "false",
+    ingredients =
+    {
+      {"iron-plate", 1},
+	  {"graphite-bar", 2},
+	  {"electro-magnet", 2},
+	  
+	  
+    },
+    result = "small-electric-engine",
+	result_count = 4,
+  },
   
   
 })

@@ -87,7 +87,7 @@ data:extend(
   {
     type = "item",
     name = "lead-acid-battery",
-    icon = "__base__/graphics/icons/electric-engine-unit.png",
+    icon = "__base__/graphics/icons/battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[lead-acid-battery]",
@@ -96,10 +96,19 @@ data:extend(
   {
     type = "item",
     name = "lithium-ion-battery",
-    icon = "__base__/graphics/icons/electric-engine-unit.png",
+    icon = "__base__/graphics/icons/battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-a[lithium-ion-battery]",
+    stack_size = 200
+  },
+  {
+    type = "item",
+    name = "small-electric-engine",
+    icon = "__base__/graphics/icons/electric-engine-unit.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "the-mod-intermediate",
+    order = "a[the-mod-intermediate]-a[small-electric-engine]",
     stack_size = 200
   },
 })

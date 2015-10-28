@@ -14,3 +14,9 @@ end
 function AddToRecipe(Name, Ingredient, Amount)
 	table.insert(data.raw["recipe"][Name].ingredients,{Ingredient, Amount})
 end
+function AddRecipeToTech(Name, Recipe)
+	table.insert(data.raw["technology"][Name].effects,{type = "unlock-recipe",recipe = Recipe})
+end
+function AddRequirementToTech(Name, Requirement)
+	table.insert(data.raw["technology"][Name].prerequisites, Requirement)
+end
