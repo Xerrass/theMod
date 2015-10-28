@@ -121,7 +121,7 @@ data:extend(
   {
     type = "recipe",
     name = "active-coal-filter",
-    enabled = "true",
+    enabled = "false",
     ingredients =
     {
       {"iron-plate", 1},

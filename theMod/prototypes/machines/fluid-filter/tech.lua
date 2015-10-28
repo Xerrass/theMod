@@ -18,6 +18,10 @@ data:extend(
 	  {
         type = "unlock-recipe",
         recipe = "gravel"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "active-coal-filter"
       }
     },
     unit =

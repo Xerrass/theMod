@@ -30,12 +30,14 @@ ChangeRecipe("basic-inserter", "iron-gear-wheel", "small-electric-engine", 1)
 ChangeRecipe("long-handed-inserter", "iron-gear-wheel", "small-electric-engine", 1)
 AddToRecipe("long-handed-inserter", "steel-plate",3)
 AddToRecipe("long-handed-inserter", "iron-plate",2)
+RemoveFromRecipe("long-handed-inserter", "basic-inserter")
 ChangeRecipe("fast-inserter", "basic-inserter", "small-electric-engine", 1)
 AddToRecipe("fast-inserter", "steel-plate",1)
 AddToRecipe("fast-inserter", "iron-plate",2)
 ChangeRecipe("smart-inserter", "fast-inserter", "small-electric-engine", 1)
 AddToRecipe("smart-inserter", "steel-plate",2)
 AddToRecipe("smart-inserter", "iron-plate",4)
+
 
 --[[ Technologies ]]--
 data.raw["technology"]["steel-processing"].prerequisites={"automation"}
