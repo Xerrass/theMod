@@ -17,7 +17,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/active-coal-filter.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[active-coal-filter]",
+    order = "a[the-mod-intermediate]-b[active-coal-filter]",
     stack_size = 200
   },
 	{
@@ -26,7 +26,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/electronic-transistor.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[electronic-transistor]",
+    order = "a[the-mod-intermediate]-b[electronic-transistor]",
     stack_size = 200
   },
   {
@@ -35,7 +35,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/electronic-capacitor-1.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[electronic-capacitor-1]",
+    order = "a[the-mod-intermediate]-b[electronic-capacitor-1]",
     stack_size = 200
   },
   {
@@ -44,7 +44,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/iron-cable.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[iron-cable]",
+    order = "a[the-mod-intermediate]-b[iron-cable]",
     stack_size = 200
   },
 	{
@@ -53,7 +53,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/magnet-core.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[magnet-core]",
+    order = "a[the-mod-intermediate]-b[magnet-core]",
     stack_size = 200
   },
  
@@ -63,7 +63,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/graphite-bar.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[graphite-bar]",
+    order = "a[the-mod-intermediate]-b[graphite-bar]",
     stack_size = 200
   },
   {
@@ -72,7 +72,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/electro-magnet.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[electro-magnet]",
+    order = "a[the-mod-intermediate]-b[electro-magnet]",
     stack_size = 200
   },
   {
@@ -81,7 +81,7 @@ data:extend(
     icon = "__theMod__/graphics/icons/engine-piston.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[engine-piston]",
+    order = "a[the-mod-intermediate]-b[engine-piston]",
     stack_size = 200
   },
   {
@@ -90,7 +90,7 @@ data:extend(
     icon = "__base__/graphics/icons/battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[lead-acid-battery]",
+    order = "a[the-mod-intermediate]-b[lead-acid-battery]",
     stack_size = 200
   },
   {
@@ -99,7 +99,7 @@ data:extend(
     icon = "__base__/graphics/icons/battery.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[lithium-ion-battery]",
+    order = "a[the-mod-intermediate]-b[lithium-ion-battery]",
     stack_size = 200
   },
   {
@@ -108,7 +108,16 @@ data:extend(
     icon = "__base__/graphics/icons/electric-engine-unit.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
-    order = "a[the-mod-intermediate]-a[small-electric-engine]",
+    order = "a[the-mod-intermediate]-b[small-electric-engine]",
+    stack_size = 200
+  },
+  {
+    type = "item",
+    name = "steel-dust",
+    icon = "__base__/graphics/icons/steel-dust.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "the-mod-intermediate",
+    order = "a[the-mod-intermediate]-b[steel-dust]",
     stack_size = 200
   },
 })

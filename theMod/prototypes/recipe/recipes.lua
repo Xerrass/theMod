@@ -147,6 +147,28 @@ data:extend(
     result = "small-electric-engine",
 	result_count = 4,
   },
-  
+  {
+    type = "recipe",
+    name = "steel-dust",
+    enabled = "true",
+    ingredients =
+    {
+      {"iron-ore", 4},
+	  {"coal", 2},
+    },
+    result = "steel-dust"
+  },
+  {
+    type = "recipe",
+    name = "smelt-steel-dust",
+    enabled = "true",
+	category = "smelting",
+    ingredients =
+    {
+      {"steel-dust", 2},
+    },
+    result = "steel-plate",
+	result_count = 2,
+  },
   
 })

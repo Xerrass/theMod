@@ -81,7 +81,7 @@ data:extend(
     enabled = "false",
 	category = "crafting-with-fluid",
 	 icon = "__theMod__/graphics/icons/fluid/dirty-iron-ore-slushy.png",
-	 energy_required = 4,
+	 energy_required = 2,
     ingredients =
     {
 	  {type="fluid", name="iron-ore-slushy", amount=2},
@@ -94,7 +94,7 @@ data:extend(
     name = "dry-copper-ore-slushy",
     enabled = "false",
 	category = "crafting-with-fluid",
-	energy_required = 4,
+	energy_required = 2,
 	 icon = "__theMod__/graphics/icons/fluid/dirty-copper-ore-slushy.png",
     ingredients =
     {
