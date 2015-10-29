@@ -153,8 +153,8 @@ data:extend(
     enabled = "true",
     ingredients =
     {
-      {"iron-ore", 4},
-	  {"coal", 2},
+      {"iron-ore", 8},
+	  {"coal", 3},
     },
     result = "steel-dust"
   },
@@ -165,7 +165,7 @@ data:extend(
 	category = "smelting",
     ingredients =
     {
-      {"steel-dust", 2},
+      {"steel-dust", 1},
     },
     result = "steel-plate",
 	result_count = 2,
