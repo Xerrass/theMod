@@ -63,3 +63,17 @@ require("prototypes.ammo.ammo-tech")
 
 --gun-turret-mk2
 --require("prototypes.machines.minigun-turret-mark 2.turretmk2")
+
+--Resources
+require("prototypes.resources.solid.aluminium")
+require("prototypes.resources.solid.ferrit")
+require("prototypes.resources.solid.gold")
+require("prototypes.resources.solid.lead")
+require("prototypes.resources.solid.litzium")
+require("prototypes.resources.solid.platin")
+require("prototypes.resources.solid.silver")
+require("prototypes.resources.solid.tin")
+require("prototypes.resources.solid.titan")
+require("prototypes.resources.solid.uran")
+require("prototypes.resources.solid.zink")
+require("prototypes.resources.solid.noise")

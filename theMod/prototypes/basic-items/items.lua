@@ -114,7 +114,7 @@ data:extend(
   {
     type = "item",
     name = "steel-dust",
-    icon = "__base__/graphics/icons/steel-dust.png",
+    icon = "__theMod__/graphics/icons/steel-dust.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-b[steel-dust]",
