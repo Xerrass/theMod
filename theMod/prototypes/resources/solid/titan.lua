@@ -25,8 +25,8 @@ data:extend(
     {
       control = "titan-ore",
       sharpness = 1,
-      richness_multiplier = 7000,
-      richness_base = 150,
+      richness_multiplier = 17000,
+      richness_base = 350,
       size_control_multiplier = 0.06,
       peaks = {
         {
