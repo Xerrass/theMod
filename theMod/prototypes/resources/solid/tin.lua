@@ -37,7 +37,7 @@ data:extend(
         },
         {
           influence = 0.65,
-          noise_layer = "copper-ore",
+          noise_layer = "tin-ore",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.3,
           starting_area_weight_optimal = 0,
@@ -52,7 +52,7 @@ data:extend(
         },
         {
           influence = 0.55,
-          noise_layer = "copper-ore",
+          noise_layer = "tin-ore",
           noise_octaves_difference = -2.3,
           noise_persistence = 0.4,
           starting_area_weight_optimal = 1,
@@ -130,7 +130,7 @@ data:extend(
           noise_persistence = 0.45,
         },
 		{
-          influence = -0.2,
+          influence = 0.55,
           max_influence = 0,
           noise_layer = "tin-ore",
           noise_octaves_difference = -2.3,

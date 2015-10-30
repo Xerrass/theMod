@@ -29,14 +29,14 @@ ChangeRecipe("flying-robot-frame", "electric-engine-unit", "small-electric-engin
 ChangeRecipe("basic-inserter", "iron-gear-wheel", "small-electric-engine", 1)
 ChangeRecipe("long-handed-inserter", "iron-gear-wheel", "small-electric-engine", 1)
 AddToRecipe("long-handed-inserter", "steel-plate",3)
-AddToRecipe("long-handed-inserter", "iron-plate",2)
+ChangeRecipe("long-handed-inserter", "iron-plate", "iron-plate",5)
 RemoveFromRecipe("long-handed-inserter", "basic-inserter")
 ChangeRecipe("fast-inserter", "basic-inserter", "small-electric-engine", 1)
 AddToRecipe("fast-inserter", "steel-plate",1)
-AddToRecipe("fast-inserter", "iron-plate",2)
+ChangeRecipe("fast-inserter", "iron-plate", "iron-plate",3)
 ChangeRecipe("smart-inserter", "fast-inserter", "small-electric-engine", 1)
 AddToRecipe("smart-inserter", "steel-plate",2)
-AddToRecipe("smart-inserter", "iron-plate",4)
+ChangeRecipe("smart-inserter", "iron-plate", "iron-plate",5)
 
 
 --[[ Technologies ]]--
