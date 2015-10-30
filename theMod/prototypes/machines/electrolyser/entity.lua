@@ -121,7 +121,7 @@ data:extend(
     },
     energy_usage = "210kW",
     ingredient_count = 4,
-    crafting_categories = {"electrolyser"},
+    crafting_categories = {"electrolysing"},
     fluid_boxes =
     {
       {

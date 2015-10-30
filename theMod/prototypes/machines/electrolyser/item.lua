@@ -17,7 +17,6 @@ data:extend(
     flags = {"goes-to-quickbar"},
     subgroup = "the-mod-intermediate",
     order = "e[h-capsule]",
-    place_result = "h-capsule",
     stack_size = 100
   },
   {
@@ -27,7 +26,6 @@ data:extend(
     flags = {"goes-to-quickbar"},
     subgroup = "the-mod-intermediate",
     order = "e[the-mod-intermediate]",
-    place_result = "h-capsule-filled",
     stack_size = 100
   },
 })

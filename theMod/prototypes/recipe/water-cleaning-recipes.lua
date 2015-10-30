@@ -24,11 +24,11 @@ data:extend(
     ingredients =
     {
       {"active-coal-filter", 1},
-	  {type="fluid", name="dirty-water", amount=30000},
+	  {type="fluid", name="water", amount=8000},
     },
 	results=
     {
-		{type="fluid", name="clean-water", amount=30000},
+		{type="fluid", name="clean-water", amount=8000},
 	},
   },
 })

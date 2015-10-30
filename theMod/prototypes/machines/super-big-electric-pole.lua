@@ -15,9 +15,9 @@ data:extend(
         percent = 100
       }
     },
-    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
-    selection_box = {{-1, -1}, {1, 1}},
-    drawing_box = {{-2.8, -0.5}, {0.5, 0.5}},
+    collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
+    selection_box = {{-2, -2}, {2, 2}},
+    drawing_box = {{-4.8, -1.5}, {1.5, 1.5}},
     maximum_wire_distance = 60,
     supply_area_distance = 1,
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

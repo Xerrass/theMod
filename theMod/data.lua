@@ -50,10 +50,10 @@ require("prototypes.machines.ore-mixer.recipe")
 require("prototypes.machines.ore-mixer.tech")
 
 --electrolyser
---require("prototypes.machines.electrolyser.item")
---require("prototypes.machines.electrolyser.entity")
---require("prototypes.machines.electrolyser.recipe")
---require("prototypes.machines.electrolyser.tech")
+require("prototypes.machines.electrolyser.item")
+require("prototypes.machines.electrolyser.entity")
+require("prototypes.machines.electrolyser.recipe")
+require("prototypes.machines.electrolyser.tech")
 
 --ammo-clip
 require("prototypes.ammo.ammo-clip")

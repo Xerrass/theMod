@@ -10,6 +10,6 @@ data:extend(
   },
   {
     type = "recipe-category",
-    name = "electrolyser"
+    name = "electrolysing"
   },
 })
