@@ -17,6 +17,11 @@ require("prototypes.recipe.water-cleaning-recipes")
 require("prototypes.recipe.ore-slushy-recipys")
 require("prototypes.recipe-categorys.recipe-categorys")
 
+--new undergroundbelts
+require("prototypes.machines.underground-belts.20-under-extreme-transport-belt")
+require("prototypes.machines.underground-belts.20-under-fast-transport-belt")
+require("prototypes.machines.underground-belts.20-under-transport-belt")
+
 --tech etrain
 --require("prototypes.tech.tech")
 

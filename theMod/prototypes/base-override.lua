@@ -43,3 +43,6 @@ ChangeRecipe("smart-inserter", "iron-plate", "iron-plate",5)
 data.raw["technology"]["steel-processing"].prerequisites={"automation"}
 AddRecipeToTech("automation","small-electric-engine")
 AddRecipeToTech("advanced-electronics","very-fast-inserter")
+AddRecipeToTech("logistics","basic-transport-belt-to-ground-20")
+AddRecipeToTech("logistics-2","fast-transport-belt-to-ground-20")
+AddRecipeToTech("logistics-3","express-transport-belt-to-ground-20")
