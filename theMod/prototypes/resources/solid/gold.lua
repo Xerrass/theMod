@@ -198,7 +198,7 @@ data:extend(
   {
     type = "item",
     name = "gold-plate",
-    icon = "__base__/graphics/icons/battery.png",
+    icon = "__theMod__/graphics/icons/gold-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-b[gold-plate]",

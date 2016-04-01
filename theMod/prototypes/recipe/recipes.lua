@@ -170,5 +170,17 @@ data:extend(
     result = "steel-plate",
 	result_count = 2,
   },
+  {
+    type = "recipe",
+    name = "silitcia-Smelting",
+    enabled = "true",
+	category = "smelting",
+    ingredients =
+    {
+      {"sand", 2},
+    },
+    result = "silicium",
+	result_count = 10,
+  },
   
 })

@@ -3,7 +3,7 @@ require("prototypes.functions")
 --[[ Entities ]]--
 data.raw["resource"]["stone"].richness_multiplier = 18850
 data.raw["resource"]["stone"].richness_base = 435
-data.raw["player"]["player"].inventory_size = 180
+data.raw["player"]["player"].inventory_size = 160
 
 
 --[[ Items ]]--
@@ -25,19 +25,23 @@ AddToRecipe("electronic-circuit", "electronic-transistor",1)
 AddToRecipe("electronic-circuit", "electronic-capacitor-1",1)
 ChangeRecipe("straight-rail", "stone", "gravel", 5)
 ChangeRecipe("curved-rail", "stone", "gravel", 15)
-ChangeRecipe("flying-robot-frame", "electric-engine-unit", "small-electric-engine", 4)
+ChangeRecipe("flying-robot-frame", "electric-engine-unit", "small-electric-engine", 8)
 ChangeRecipe("basic-inserter", "iron-gear-wheel", "small-electric-engine", 1)
 ChangeRecipe("long-handed-inserter", "iron-gear-wheel", "small-electric-engine", 1)
 AddToRecipe("long-handed-inserter", "steel-plate",3)
 ChangeRecipe("long-handed-inserter", "iron-plate", "iron-plate",5)
 RemoveFromRecipe("long-handed-inserter", "basic-inserter")
-ChangeRecipe("fast-inserter", "basic-inserter", "small-electric-engine", 1)
+ChangeRecipe("fast-inserter", "basic-inserter", "small-electric-engine", 2)
 AddToRecipe("fast-inserter", "steel-plate",1)
 ChangeRecipe("fast-inserter", "iron-plate", "iron-plate",3)
 ChangeRecipe("smart-inserter", "fast-inserter", "small-electric-engine", 1)
 AddToRecipe("smart-inserter", "steel-plate",2)
 ChangeRecipe("smart-inserter", "iron-plate", "iron-plate",5)
-
+ChangeRecipe("solar-panel", "copper-plate", "iron-plate",5)
+ChangeRecipe("solar-panel", "electronic-circuit", "electronic-circuit",5)
+ChangeRecipe("solar-panel", "steel-plate", "silicium",50)
+AddToRecipe("solar-panel", "steel-plate",4)
+AddToRecipe("solar-panel", "plastic-bar",6)
 
 --[[ Technologies ]]--
 data.raw["technology"]["steel-processing"].prerequisites={"automation"}

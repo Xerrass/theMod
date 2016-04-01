@@ -2,12 +2,21 @@ data:extend(
 {
 	{
 		type = "item",
+		name = "silicium",
+		icon = "__theMod__/graphics/icons/sand.png",
+		flags = {"goes-to-main-inventory"},
+		subgroup = "the-mod-intermediate",
+		order = "a[the-mod-intermediate]-e[silicium]",
+		stack_size = 1000
+	},
+	{
+		type = "item",
 		name = "sand",
 		icon = "__theMod__/graphics/icons/sand.png",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "the-mod-intermediate",
 		order = "a[the-mod-intermediate]-e[sand]",
-		stack_size = 200
+		stack_size = 1000
 	},
 	{
 		type = "item",
@@ -16,7 +25,7 @@ data:extend(
 		flags = {"goes-to-main-inventory"},
 		subgroup = "the-mod-intermediate",
 		order = "a[the-mod-intermediate]-e[gravel]",
-		stack_size = 200
+		stack_size = 500
 	},
 	{
 		type = "item",

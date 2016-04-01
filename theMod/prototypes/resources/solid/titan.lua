@@ -198,7 +198,7 @@ data:extend(
   {
     type = "item",
     name = "titan-plate",
-    icon = "__base__/graphics/icons/battery.png",
+    icon = "__theMod__/graphics/icons/titan-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-b[titan-plate]",

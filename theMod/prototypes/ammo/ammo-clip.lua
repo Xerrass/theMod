@@ -27,7 +27,7 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 10 , type = "physical"}
+              damage = { amount = 5 , type = "physical"}
             }
           }
         }

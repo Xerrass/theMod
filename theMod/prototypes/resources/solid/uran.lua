@@ -190,7 +190,7 @@ data:extend(
 	category = "smelting",
     ingredients =
     {
-      {"uran-ore", 1},
+      {"uran-ore", 15},
     },
     result = "uran-plate",
 	result_count = 1,
@@ -198,7 +198,7 @@ data:extend(
   {
     type = "item",
     name = "uran-plate",
-    icon = "__base__/graphics/icons/battery.png",
+    icon = "__theMod__/graphics/icons/uran-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-b[uran-plate]",

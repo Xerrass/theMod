@@ -197,7 +197,7 @@ data:extend(
   {
     type = "item",
     name = "ferrit-plate",
-    icon = "__base__/graphics/icons/battery.png",
+    icon = "__theMod__/graphics/icons/ferrit-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "the-mod-intermediate",
     order = "a[the-mod-intermediate]-b[ferrit-plate]",
