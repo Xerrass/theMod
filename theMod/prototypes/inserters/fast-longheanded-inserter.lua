@@ -2,14 +2,14 @@ data:extend(
 {
   {
     type = "inserter",
-    name = "very-fast-inserter",
+    name = "fast-longheanded-inserter",
     icon = "__base__/graphics/icons/fast-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
       hardness = 0.2,
       mining_time = 0.5,
-      result = "very-fast-inserter"
+      result = "fast-longheanded-inserter"
     },
     max_health = 40,
     corpse = "small-remnants",
@@ -65,21 +65,21 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__base__/graphics/entity/fast-inserter/fast-inserter-hand-base.png",
+      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34
     },
     hand_closed_picture =
     {
-      filename = "__base__/graphics/entity/fast-inserter/fast-inserter-hand-closed.png",
+      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-closed.png",
       priority = "extra-high",
       width = 18,
       height = 41
     },
     hand_open_picture =
     {
-      filename = "__base__/graphics/entity/fast-inserter/fast-inserter-hand-open.png",
+      filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-open.png",
       priority = "extra-high",
       width = 18,
       height = 41
@@ -109,7 +109,7 @@ data:extend(
     {
       sheet =
       {
-        filename = "__base__/graphics/entity/fast-inserter/fast-inserter-platform.png",
+        filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46
@@ -118,24 +118,24 @@ data:extend(
   },
   {
     type = "item",
-    name = "very-fast-inserter",
+    name = "fast-longheanded-inserter",
     icon = "__base__/graphics/icons/fast-inserter.png",
     flags = {"goes-to-quickbar"},
     subgroup = "inserter",
-    order = "d[very-fast-inserter]",
-    place_result = "very-fast-inserter",
+    order = "d[fast-longheanded-inserter]",
+    place_result = "fast-longheanded-inserter",
     stack_size = 50
   },
    {
     type = "recipe",
-    name = "very-fast-inserter",
+    name = "fast-longheanded-inserter",
     enabled = false,
     ingredients =
     {
       {"electronic-circuit", 2},
-      {"steel-plate", 2},
+      {"steel-plate", 8},
       {"small-electric-engine", 4}
     },
-    result = "very-fast-inserter"
+    result = "fast-longheanded-inserter"
   },
-})
+  })
